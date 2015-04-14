@@ -1,16 +1,8 @@
-// cmdline2.cs
-// arguments: John Paul Mary
+// person.cs
 using System;
+class Person {
 
-public class CommandLine2
-{
-   public static void Main(string[] args)
-   {
-       Console.WriteLine("Number of command line parameters = {0}",
-          args.Length);
-       foreach(string s in args)
-       {
-          Console.WriteLine(s);
-       }
-   }
+    public static void Main() {
+        Console.WriteLine("Person details - {0}", 5);
+    }
 }
